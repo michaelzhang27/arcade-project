@@ -6,16 +6,22 @@ To provide a little more context into the vision of this project, I wanted to fi
 
 ## Getting Started
 
-- To run the frontend Next.JS application, please navigate to the root directory of the project and run:
+- Please clone this repository, or download as zip:
 
 ```bash
-npm run dev
+git clone https://github.com/michaelzhang27/arcade-project.git
 ```
 
-Note: depending on your environment, you may need to install dependencies first:
+- Next, to run the frontend Next.JS application, please navigate to the root directory of the project and run:
 
 ```bash
 npm install
+```
+
+- Followed by:
+
+```bash
+npm run dev
 ```
 
 - To run the backend, please run:
@@ -46,7 +52,7 @@ The stores are structured as following:
 ```json
 {
   "creationID": {
-    "prompts": ["prompt1", "prompt2"],
+    "prompts": ["prompt1", "follow up on prompt1..."],
     "image": "base64-encoded-image"
   }
 }
